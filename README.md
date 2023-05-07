@@ -29,9 +29,8 @@
      └─ transformers
           │  __init__.py
           └─ frac_diff_transf.py
-
-
 </pre>
+
 ### setup.py
   Instructions to python when installing the package.<br>
 
@@ -44,13 +43,13 @@
 ### frac_diff_transf.py
   Module that contains the class FracDiff which have the functions to perform the fraction differentiation.
 
-# Referência
+# References
 *  https://www.ostirion.net/post/stock-price-fractional-differentiation-best-fraction-finder
 *  Chapter 5 from Advances in Financial Machine Learning - Marcos M. Lopez de Prado - 1st Edition
 
-# Autor
+# Author
 [Pablo Oliveira - LindedIn](https://br.linkedin.com/in/pablo-oliveira-msc-cqf-88365716)<br>
 [Pablo Oliveira - GitHub](https://github.com/pablofrioli)
 
-# Licença
-fin_ml está sob licença [Apache v2 license](LICENSE).
+# License
+fin_ml is under [Apache v2 license](LICENSE).
