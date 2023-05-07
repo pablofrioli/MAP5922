@@ -13,7 +13,7 @@
 * numpy 1.21.4
 * pandas 1.2.3
 * ststsmodels 0.13.5 (Apenas para fazer o teste ADF)
-* scikit-learn 0.23.2 ou posterior (Apenas para criar o transformer) 
+* scikit-learn 1.2.2 ou posterior (Apenas para criar o transformer) 
 
 # Examples
   In the 'notebook' folder there are an examples of how to use transformers and other functions in a Jupyter Notebook files.
