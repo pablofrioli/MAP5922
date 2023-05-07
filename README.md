@@ -15,8 +15,8 @@
 * ststsmodels 0.13.5 (Apenas para fazer o teste ADF)
 * scikit-learn 0.23.2 ou posterior (Apenas para criar o transformer) 
 
-# Example
-  In the 'notebook' folder there is an example of how running it in a Jupyter Notebook file.
+# Examples
+  In the 'notebook' folder there are an examples of how to use transformers and other functions in a Jupyter Notebook files.
 
   Enjoy!
 
@@ -25,7 +25,7 @@
 │  setup.py
 └─ fin_ml
      │  notebook
-     │    └─ example.ipynb
+     │    └─ frac_diff_ex.ipynb
      └─ transformers
           │  __init__.py
           └─ frac_diff_transf.py
