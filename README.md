@@ -15,6 +15,6 @@ pip install dist/fin_ml-0.2-py3-none-any.whl
 * scikit-learn 0.23.2 ou posterior (Apenas para criar o transformer) 
 
 # Example
-In the notebook folder there is an example of how running it.
+In the 'notebook' folder there is an example of how running it in a Jupyter Notebook file.
 
 Enjoy!
