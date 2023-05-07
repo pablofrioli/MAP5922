@@ -9,7 +9,7 @@
 * python setup.py bdist_wheel
 * pip install dist/fin_ml-0.2-py3-none-any.whl
 
-# Requisites
+# Requirements
 * numpy 1.21.4
 * pandas 1.2.3
 * ststsmodels 0.13.5 (Apenas para fazer o teste ADF)
@@ -20,7 +20,7 @@
 
   Enjoy!
 
-# Diretório
+# Directory
 <pre>
 │  setup.py
 └─ fin_ml
