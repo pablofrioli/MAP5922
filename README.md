@@ -1,12 +1,13 @@
 # fin_ml
-This package of libraries was developed for the classes of the discipline MAP5922 - Machine Learning Applied to Finance from USP (Universidade de São Paulo), 2023/1st semester cohort.<br>
+  This package of libraries was developed for the classes of the discipline MAP5922 - Machine Learning Applied to Finance from USP (Universidade de São Paulo), 2023/1st semester cohort.<br>
 
-In the fin_ml library, you will find the transformers classes. One of the them is in frac_diff_transf, which applies fraction differentiation to series of data organized in a Pandas DataFrame, and can be called as a Pipeline in a ColumnTransformer from Sckit-learn.
+  In the fin_ml library, you will find the transformers classes. One of the them is in frac_diff_transf, which applies fraction differentiation to series of data organized in a Pandas DataFrame, and can be called as a Pipeline in a ColumnTransformer from Sckit-learn.
 
 # Installation
-After downloading the files of this repository to your PC, run the following commands from the folder you have put it in:
+  After downloading the files of this repository to your PC, run the following commands from the folder you have put it in:
 
-pip install dist/fin_ml-0.2-py3-none-any.whl
+* python setup.py bdist_wheel
+* pip install dist/fin_ml-0.2-py3-none-any.whl
 
 # Requisites
 * numpy 1.21.4
@@ -15,6 +16,41 @@ pip install dist/fin_ml-0.2-py3-none-any.whl
 * scikit-learn 0.23.2 ou posterior (Apenas para criar o transformer) 
 
 # Example
-In the 'notebook' folder there is an example of how running it in a Jupyter Notebook file.
+  In the 'notebook' folder there is an example of how running it in a Jupyter Notebook file.
 
-Enjoy!
+  Enjoy!
+
+# Diretório
+<pre>
+│  setup.py
+└─ fin_ml
+     │  notebook
+     │    └─ example.ipynb
+     └─ transformers
+          │  __init__.py
+          └─ frac_diff_transf.py
+
+
+</pre>
+### setup.py
+  Instructions to python when installing the package.<br>
+
+### frac_diff_ex.ipynb
+  Jupyter notebook with an example using the library frac_diff_transf.
+
+### __init__.py
+  File to indicate this folder contains libraries to be added to fin_ml.
+
+### frac_diff_transf.py
+  Module that contains the class FracDiff which have the functions to perform the fraction differentiation.
+
+# Referência
+*  https://www.ostirion.net/post/stock-price-fractional-differentiation-best-fraction-finder
+*  Chapter 5 from Advances in Financial Machine Learning - Marcos M. Lopez de Prado - 1st Edition
+
+# Autor
+[Pablo Oliveira - LindedIn](https://br.linkedin.com/in/pablo-oliveira-msc-cqf-88365716)<br>
+[Pablo Oliveira - GitHub](https://github.com/pablofrioli)
+
+# Licença
+fin_ml está sob licença [Apache v2 license](LICENSE).
