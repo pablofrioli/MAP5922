@@ -1,10 +1,10 @@
 # fin_ml
-  This package of libraries was developed for the classes of the discipline MAP5922 - Machine Learning Applied to Finance from USP (Universidade de São Paulo), 2023/1st semester cohort.<br>
+  This package of libraries was developed for a project of discipline MAP5922 - Machine Learning Applied to Finance from USP (Universidade de São Paulo), 2023/1st semester cohort.<br>
 
-  In the fin_ml library, you will find the transformers classes. One of the them is in frac_diff_transf, which applies fraction differentiation to series of data organized in a Pandas DataFrame, and can be called as a Pipeline in a ColumnTransformer from sckit-learn.
+  In fin_ml library, you will find the transformers classes. One of them is in frac_diff_transf, which applies fraction differentiation to series of data organized in a Pandas DataFrame, and can be called as a Pipeline in a ColumnTransformer from sckit-learn.
 
 # Installation
-  After downloading the files of this repository to your PC, run the following commands from the folder you have put it in:
+  After downloading the files from this repository to your PC, run the following commands from the folder you have put it in:
 
 * python setup.py bdist_wheel
 * pip install dist/fin_ml-0.2-py3-none-any.whl
@@ -16,7 +16,7 @@
 * scikit-learn 1.2.2 ou posterior (Apenas para criar o transformer) 
 
 # Examples
-  In the 'notebook' folder there are an examples of how to use transformers and other functions in a Jupyter Notebook files.
+  In the 'notebook' folder there are examples of how to use transformers and other functions in Jupyter Notebook files.
 
   Enjoy!
 
@@ -35,13 +35,13 @@
   Instructions to python when installing the package.<br>
 
 ### frac_diff_ex.ipynb
-  Jupyter notebook with an example using the library frac_diff_transf.
+  Jupyter notebook with an example using library frac_diff_transf.
 
 ### __init__.py
   File to indicate this folder contains libraries to be added to fin_ml.
 
 ### frac_diff_transf.py
-  Module that contains the class FracDiff which have the functions to perform the fraction differentiation.
+  Module that contains the class FracDiff which have functions to perform the fraction differentiation.
 
 # References
 *  https://www.ostirion.net/post/stock-price-fractional-differentiation-best-fraction-finder
